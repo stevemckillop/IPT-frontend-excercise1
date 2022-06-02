@@ -4,11 +4,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Code Chrysalis</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Matching Mock #1</title>
+    <script src="./index.js"></script>
   </head>
 
   <body>
-    <h1 id="title"></h1>
-    <script src="./index.js"></script>
+    <h1 id="title"> New Account</h1>
+      <div id="maincontainer">
+        <h3>Name</h3>
+        <input type="text" style="font-size:24px" id="NameInputText" class="textBoxClass"> 
+        <br> </br>
+
+        <h3>Email</h3>
+        <input type="text" style="font-size:24px" id="EmailInputText" class="textBoxClass"> 
+        <br> </br>
+
+        <h3>Password</h3>
+        <input type="password" style="font-size:24px" id="Password1InputText" class="textBoxClass"> 
+        <br> </br>
+
+        <h6 id = "passwordError"> </h6>
+
+        <h3>Password (again)</h3>
+        <input type="password" style="font-size:24px" id="Password2InputText" class="textBoxClass"> 
+        <br> </br>
+
+      <button id= "CreateAccountButton" class="button"> Create Account</button>
+      
+        <a href="https://www.memesmonkey.com/images/memesmonkey/f9/f9d2c539d34b0054075840effa4507d9.jpeg">
+          <h6 id="hasAccount"><u>Already have an account? Sign In</u></h6>
+        </a>
+    </div>
   </body>
 </html>
